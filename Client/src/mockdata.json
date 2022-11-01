@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Walter White",
+        "position": "Doctor",
+        "location": "Room 103",
+        "image": "https://uploads-ssl.webflow.com/5fa452663d18a6699f11aa07/62b46638bedf9aabc6b3c121_Walter%20white.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jesse Pinkman",
+        "position": "Nurse",
+        "location": "Room 103",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png"
+    },
+    {
+        "id": 3,
+        "name": "Saul Goodman",
+        "position": "Service Assistant",
+        "location": "Room 102",
+        "image": "https://i.pinimg.com/564x/a7/2a/23/a72a23f12696c161674b97fa33104c6f.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Gustavo Fring",
+        "position": "Head Physician",
+        "location": "Room 101",
+        "image": "https://cdn.mos.cms.futurecdn.net/UFgWUbFrUeq9Ae8R5vDAUF.jpg"
+    }
+]
+
