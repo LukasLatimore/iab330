@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <div className="theme">
       <h1>Available Clinical Spaces</h1>
-      <ul>
+      <>
         {
           backendData.map(post => <p1 className={"theme3"} key={post.id}>
             {console.log(post.staffnum)}
             {post.staffnum === 0 ? `Room ${post.room} available` : `Room ${post.room} is not avaialable` }
           </p1>)
         }
-      </ul>
+      </>
     </div>
   )
 }
