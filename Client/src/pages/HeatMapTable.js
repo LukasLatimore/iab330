@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
 import ClinicalRoom from '../images/ClinicalRoom.jpg'
-import data3 from "../data.json"
 import green from "../images/green.png"
 import red from "../images/red.png"
 
+
+//Heat map function which displays the Heat Map screen
 export default function HeatMapTable({ list, colNames, room, height='auto'}) {
   const [count, setCount] = useState(0)
   const [backendData, setBackendData] = useState([{}])
-   //list = data3[0].mapped
-   //room = data3[0].room
-   colNames = ["", "", "",""]
-   
+
+   //to define the number of rows
+   colNames = ["", "", "",""] 
+   //fetching data from backend
    useEffect(() => {
     fetch("/heatmapapi").then(
       response => response.json()

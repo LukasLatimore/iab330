@@ -4,6 +4,7 @@ import home from './images/Home.png'
 import staff from './images/Staff.png'
 import HeatMap from './images/HeatMap.png'
 
+//navbar function which remains on screen at all times
 export default function Navbar() {
   
   return (

@@ -1,7 +1,8 @@
 import React,{ useEffect, useState } from "react"
+//home function which displays the home screen or "clinical spaces" screen
 export default function Home() {
   const [backendData, setBackendData] = useState([{}])
-  
+  //fetching the heatmap api
   useEffect(() => {
     fetch("/heatmapapi").then(
       response => response.json()
