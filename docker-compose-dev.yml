@@ -2,8 +2,8 @@ version: "3.9"
 services:
   api:
     build: 
-    context: ./server
-    dockerfile: Dockerfile
+      context: ./server
+      dockerfile: Dockerfile
   container_name: server
   hostname: app
   restart: always
@@ -26,7 +26,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      -./client/src:/app/src
+      - ./client/src:/app/src
       - '/app/node_modules'
     stdin_open: true
     tty: true
